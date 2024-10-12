@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(213, 255, 255), rgb(122, 255, 255), rgb(213, 255, 255));
+    font-family: Georgia, 'Times New Roman';
+}
+
+header {
+    background: linear-gradient(270deg, rgb(0, 136, 247), rgb(0, 75, 136));
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner_header {
+    width: 40%;
+    height: 100%;
+}
+
+.logo_conteiner {
+    height: 100%;
+    display: table;
+    float: left;
+    margin: auto 20px;
+}
+
+.logo_conteiner span {
+    color: rgb(0, 174, 255);
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav{
+    justify-content: center;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    margin: 10px; 
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgb(0, 174, 255);
+    font-size: 19px;
+    transition: 0.7s;
+}
+
+#hero {
+    height: 86vh;
+    background-image: url(./img/agua.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.container {
+    margin: 0 0 0 30%;
+}
+
+#hero .container h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 174, 255);
+    transition: 0.7s;
+}
+
+#hero .container h1:hover {
+    font-size: 3.6rem;
+    color: rgb(0, 136, 247);
+    transition: 0.7s;
+}
+
+#hero .container p{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+#features {
+    padding: 2%;
+    text-align: center;
+    font-size: 36px;
+}
+
+#features p {
+    margin: 1%;
+    font-size: 22px;
+}
+
+.funcao {
+    background-color: rgb(206, 255, 255);
+    padding: 20px;
+    border: solid, 3px, rgb(0, 136, 247);
+    border-radius: 16px;
+    width: 20%;
+    margin: 2% 0;
+    text-align: center;
+}
+
+.funcao h3 {
+    font-size: 28px;
+}
+
+.funcao p {
+    padding-top: 6%;
+    font-size: 20px;
+}
+
+#conteudo {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact {
+    background-color: rgb(206, 255, 255);
+    text-align: center;
+    padding: 2%;
+}
+
+#contact h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 136, 247);
+}
+
+form {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form label {
+    color: rgb(0, 136, 247);
+    font-weight: bold;
+}
+
+.contact-input {
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.contact-input:focus {
+    border: 2px, solid, rgb(0, 136, 247);
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, rgb(0, 136, 247), rgb(0, 75, 136));
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    background: linear-gradient(270deg, rgb(0, 136, 247), rgb(0, 75, 136));
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer a{
+    padding-left: 20px;
+}
